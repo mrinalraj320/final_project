@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+/* Navbar Start */
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid white;
+}
+.navbar .logo h1{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.navbar .right .items{
+    display: flex;
+    align-items: center; 
+ }
+ .items li{
+    padding: 0px 20px;
+    list-style: none;
+   
+ }
+
+.items li a{
+    text-decoration: none;
+    color: white;
+ }
+
+/* Navbar End */
+
+/* Main Container Start */
+.head{
+    background: black;
+    display: flex;
+}
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.h1left h1{
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 242px;
+    padding: 50px;
+}
+
+.section-1 .right-section img{
+    width: 734px;
+    height: 395px;
+    padding-top: 309px;
+    padding-right: 23px;
+}
+
+/* About Us */
+#about{
+    display: flex;
+    margin: 182px
+}
+#about .leftimage{
+    width: 50%;
+}
+#about .h2right{
+    width: 50%;
+    padding: 30px 0 0 86px
+}
+
+#about .h2right h1{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+}
+#about .leftimage img{
+    width: 100%; 
+}
+/* End About Us */
+
+/* Our Services */
+#services{
+    margin: 120px;
+}
+.our-service h1{
+
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #000000;
+    padding-left: 50px;
+    
+}
+.item{
+    display: flex;
+    margin: 10px;
+    padding: 50px;
+}
+.service1{
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 10px;
+}
+.service1 h1{
+    margin: 30px;
+}
+.service1 p{
+    margin: 30px;
+}
+.service1:hover{
+    background: black;
+    color: white;
+    transition: .3s;
+}
+/* End Our Services */
+/* Main Container End */
+
+/* Footer Start */
+#footer{
+    background-color: #000000;
+}
+.title{
+    font-weight: 700;
+font-size: 100px;
+line-height: 121px;
+color: white;
+text-align: center;
+}
+
+input[type="text"],input[type="email"]{
+    width: 65%;
+    padding: 20px 20px;
+    margin: 15px 398px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+input[type="text"]:focus , input[type="email"]:focus{
+    outline: none;
+}
+input[type="text"]::placeholder, input[type="email"]::placeholder{
+    color: white;
+}
+.btn{
+    padding: 11px 70px;
+    margin: 28px 395px;
+    font-size: 20px;
+}
+/* Footer End */
