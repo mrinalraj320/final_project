@@ -55,6 +55,17 @@
     font-size: 200px;
     line-height: 242px;
     padding: 50px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .section-1 .right-section img{
@@ -157,3 +168,4 @@ input[type="text"]::placeholder, input[type="email"]::placeholder{
     font-size: 20px;
 }
 /* Footer End */
+
